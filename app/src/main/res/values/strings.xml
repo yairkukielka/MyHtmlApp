@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyHtmlApp</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="html">
+        <![CDATA[
+            %1$s
+            <p style="color: blue;">This is a paragraph with a style</p>
+            <h4>Heading H4</h4>
+            Text below the H4 heading
+            <ul>
+                <li style="color: yellow;"><font color=\'#FF8000\'>li orange element</font></li>
+                <li>li #2 element</li>
+            </ul>
+            <blockquote>
+                This is a blockquote
+            </blockquote>
+            Text after blockquote
+            Text before div
+            <div>
+                This is a div
+            </div>
+            Text after div
+        ]]>
+    </string>
+
+</resources>
